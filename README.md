@@ -82,6 +82,13 @@ The dataset used in this project is the Titanic dataset from Kaggle (train.csv).
 
 ---
 
+### Exercise 11: Survival Rate by Fare Groups
+- Grouped passengers based on ticket fare.
+- Analyzed the relationship between fare price and survival rate.
+- Observed that passengers who paid higher fares had better survival chances.
+
+---
+
 ## Tools & Libraries
 - Python
 - Pandas
