@@ -89,6 +89,15 @@ The dataset used in this project is the Titanic dataset from Kaggle (train.csv).
 
 ---
 
+### Exercise 12: Survival by Sex, Fare Group, and Class
+- Categorized ticket prices into three groups: Low (<10), Medium (10–50), High (>50).  
+- Removed rows with missing Sex, Pclass, or Fare.  
+- Used a pivot table to calculate mean survival rates for each combination of Sex, FareGroup, and Pclass.  
+- Visualized results with a bar chart and added small value labels (fontsize=8) above each bar.  
+- Observed survival patterns across gender, class, and fare group.
+
+---
+
 ## Tools & Libraries
 - Python
 - Pandas
