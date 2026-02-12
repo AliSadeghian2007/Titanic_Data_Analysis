@@ -1,11 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
-# Load dataset
 df = pd.read_csv('../../data/train.csv')
 df = df.dropna(subset=['Sex', 'Pclass', 'Fare'])
-
-# FareGroup
 def fare_group(price):
     if price < 10:
         return "Low"
@@ -17,14 +13,16 @@ def fare_group(price):
 df['FareGroup'] = df['Fare'].apply(fare_group)
 
 # Pivot table
+### Create a pivot table to analyze survival rate
+# Rows: Sex and FareGroup
+# Columns: Passenger Class
+# Values: Mean survival rate
 pivot = df.pivot_table(
     values='Survived',
     index=['Sex', 'FareGroup'],
     columns='Pclass',
     aggfunc='mean'
 )
-
-# Plot
 ax = pivot.plot(kind='bar')
 plt.title('Survival Rate by Sex, Fare Group and Passenger Class')
 plt.xlabel('Sex and Fare Group')
