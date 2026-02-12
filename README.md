@@ -98,6 +98,16 @@ The dataset used in this project is the Titanic dataset from Kaggle (train.csv).
 
 ---
 
+### Exercise 13: Survival by Sex, Age Group, and Class
+- Removed missing values from the Age column.
+- Created a new column AgeGroup (Kid ≤12, Adult 13–60, Elder >60).
+- Used a pivot table to calculate mean survival rates for each combination of Sex, AgeGroup, and Pclass.
+- Visualized the results using a bar chart.
+- Added small value labels (fontsize=8) above each bar for clarity.
+- Analyzed how age, gender, and passenger class together influenced survival.
+
+---
+
 ## Tools & Libraries
 - Python
 - Pandas
