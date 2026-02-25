@@ -108,6 +108,16 @@ The dataset used in this project is the Titanic dataset from Kaggle (train.csv).
 
 ---
 
+### Exercise 14: Survival Rate by Family Size
+
+- Created a new feature called FamilySize using SibSp and Parch.
+- Engineered a categorical feature FamilyGroup (Alone, Small, Large).
+- Calculated survival rates using pivot_table().
+- Visualized survival patterns across different family sizes.
+- Practiced feature engineering and categorical analysis.
+
+---
+
 ## Tools & Libraries
 - Python
 - Pandas
