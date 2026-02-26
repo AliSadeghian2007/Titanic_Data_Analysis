@@ -118,6 +118,18 @@ The dataset used in this project is the Titanic dataset from Kaggle (train.csv).
 
 ---
 
+### Exercise 15: Survival Rate by Passenger Title
+
+- Extracted passenger titles (Mr, Mrs, Miss, Master, etc.) from the Name column.
+- Cleaned titles by grouping rare titles into a single category called "Rare".
+- Created a new categorical feature representing social status and age information.
+- Calculated survival rates based on passenger titles using pivot tables.
+- Visualized survival rates with bar charts and annotated values.
+
+This exercise demonstrates basic feature engineering by transforming raw text data into meaningful analytical categories.
+
+---
+
 ## Tools & Libraries
 - Python
 - Pandas
